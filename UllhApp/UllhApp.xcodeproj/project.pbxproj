@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3717CF252A6AD5380009D36C /* AwayTeamScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717CF242A6AD5380009D36C /* AwayTeamScreen.swift */; };
+		3717CF272A6AD5430009D36C /* HomeTeamScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717CF262A6AD5430009D36C /* HomeTeamScreen.swift */; };
+		3725F82F2A659DD30064B873 /* UllhAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F82E2A659DD30064B873 /* UllhAppApp.swift */; };
+		3725F8312A659DD30064B873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8302A659DD30064B873 /* ContentView.swift */; };
+		3725F8332A659DD40064B873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3725F8322A659DD40064B873 /* Assets.xcassets */; };
+		3725F8362A659DD40064B873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3725F8352A659DD40064B873 /* Preview Assets.xcassets */; };
+		3725F83E2A659F530064B873 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F83D2A659F530064B873 /* TabBarView.swift */; };
+		3725F8462A659FD70064B873 /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8452A659FD70064B873 /* NewsScreen.swift */; };
+		3725F8482A659FEC0064B873 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8472A659FEC0064B873 /* ProfileScreen.swift */; };
+		3725F84A2A659FF90064B873 /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8492A659FF90064B873 /* CalendarScreen.swift */; };
+		3725F84F2A65A4AE0064B873 /* GamesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F84E2A65A4AE0064B873 /* GamesCardView.swift */; };
+		3725F8522A65A7F30064B873 /* GameCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8512A65A7F30064B873 /* GameCards.swift */; };
+		3725F8562A65B2B00064B873 /* GamesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8552A65B2B00064B873 /* GamesScreen.swift */; };
+		3725F8582A65E47C0064B873 /* StatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8572A65E47C0064B873 /* StatsScreen.swift */; };
+		3725F85B2A65E7C80064B873 /* VutCavaliers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F85A2A65E7C80064B873 /* VutCavaliers.swift */; };
+		3725F85D2A65E7D50064B873 /* UkPrague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F85C2A65E7D50064B873 /* UkPrague.swift */; };
+		3725F85F2A65E7E00064B873 /* BlackDogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F85E2A65E7E00064B873 /* BlackDogs.swift */; };
+		3725F8612A65E7F60064B873 /* AcademyPlzen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8602A65E7F60064B873 /* AcademyPlzen.swift */; };
+		3725F8632A65E82D0064B873 /* EngineersPrague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8622A65E82D0064B873 /* EngineersPrague.swift */; };
+		3725F8652A65E83C0064B873 /* BoOstrava.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8642A65E83C0064B873 /* BoOstrava.swift */; };
+		3725F8672A65E84C0064B873 /* NorthWings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8662A65E84C0064B873 /* NorthWings.swift */; };
+		3725F8692A65E85C0064B873 /* HcOlomouc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F8682A65E85C0064B873 /* HcOlomouc.swift */; };
+		3725F86B2A65E87F0064B873 /* RidersPardubice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F86A2A65E87F0064B873 /* RidersPardubice.swift */; };
+		3725F86D2A65E8990064B873 /* HcMuni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F86C2A65E8990064B873 /* HcMuni.swift */; };
+		3725F86F2A65F4580064B873 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3725F86E2A65F4580064B873 /* SplashScreenView.swift */; };
+		379357792AB0A1880079774C /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379357782AB0A1880079774C /* Players.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3717CF242A6AD5380009D36C /* AwayTeamScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwayTeamScreen.swift; sourceTree = "<group>"; };
+		3717CF262A6AD5430009D36C /* HomeTeamScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTeamScreen.swift; sourceTree = "<group>"; };
+		3725F82B2A659DD30064B873 /* UllhApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UllhApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3725F82E2A659DD30064B873 /* UllhAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UllhAppApp.swift; sourceTree = "<group>"; };
+		3725F8302A659DD30064B873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3725F8322A659DD40064B873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3725F8352A659DD40064B873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3725F83D2A659F530064B873 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		3725F8452A659FD70064B873 /* NewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreen.swift; sourceTree = "<group>"; };
+		3725F8472A659FEC0064B873 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		3725F8492A659FF90064B873 /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		3725F84E2A65A4AE0064B873 /* GamesCardView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = GamesCardView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		3725F8512A65A7F30064B873 /* GameCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCards.swift; sourceTree = "<group>"; };
+		3725F8552A65B2B00064B873 /* GamesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesScreen.swift; sourceTree = "<group>"; };
+		3725F8572A65E47C0064B873 /* StatsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreen.swift; sourceTree = "<group>"; };
+		3725F85A2A65E7C80064B873 /* VutCavaliers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VutCavaliers.swift; sourceTree = "<group>"; };
+		3725F85C2A65E7D50064B873 /* UkPrague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkPrague.swift; sourceTree = "<group>"; };
+		3725F85E2A65E7E00064B873 /* BlackDogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDogs.swift; sourceTree = "<group>"; };
+		3725F8602A65E7F60064B873 /* AcademyPlzen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcademyPlzen.swift; sourceTree = "<group>"; };
+		3725F8622A65E82D0064B873 /* EngineersPrague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineersPrague.swift; sourceTree = "<group>"; };
+		3725F8642A65E83C0064B873 /* BoOstrava.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoOstrava.swift; sourceTree = "<group>"; };
+		3725F8662A65E84C0064B873 /* NorthWings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthWings.swift; sourceTree = "<group>"; };
+		3725F8682A65E85C0064B873 /* HcOlomouc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HcOlomouc.swift; sourceTree = "<group>"; };
+		3725F86A2A65E87F0064B873 /* RidersPardubice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidersPardubice.swift; sourceTree = "<group>"; };
+		3725F86C2A65E8990064B873 /* HcMuni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HcMuni.swift; sourceTree = "<group>"; };
+		3725F86E2A65F4580064B873 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		379357782AB0A1880079774C /* Players.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3725F8282A659DD30064B873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3725F8222A659DD30064B873 = {
+			isa = PBXGroup;
+			children = (
+				3725F82D2A659DD30064B873 /* UllhApp */,
+				3725F8592A65E7AF0064B873 /* UllhTeams */,
+				3725F82C2A659DD30064B873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3725F82C2A659DD30064B873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3725F82B2A659DD30064B873 /* UllhApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3725F82D2A659DD30064B873 /* UllhApp */ = {
+			isa = PBXGroup;
+			children = (
+				3725F82E2A659DD30064B873 /* UllhAppApp.swift */,
+				3725F86E2A65F4580064B873 /* SplashScreenView.swift */,
+				3725F8302A659DD30064B873 /* ContentView.swift */,
+				3725F83C2A659F3D0064B873 /* Core */,
+				3725F8322A659DD40064B873 /* Assets.xcassets */,
+				3725F8342A659DD40064B873 /* Preview Content */,
+			);
+			path = UllhApp;
+			sourceTree = "<group>";
+		};
+		3725F8342A659DD40064B873 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3725F8352A659DD40064B873 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3725F83C2A659F3D0064B873 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3725F84B2A65A0610064B873 /* Games */,
+				3725F8442A659FBE0064B873 /* News */,
+				3725F8422A659FB00064B873 /* Profile */,
+				3725F8412A659F9B0064B873 /* Calendar */,
+				3725F8402A659F8D0064B873 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3725F8402A659F8D0064B873 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3725F83D2A659F530064B873 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		3725F8412A659F9B0064B873 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3725F8492A659FF90064B873 /* CalendarScreen.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		3725F8422A659FB00064B873 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3725F8472A659FEC0064B873 /* ProfileScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3725F8442A659FBE0064B873 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				3725F8452A659FD70064B873 /* NewsScreen.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		3725F84B2A65A0610064B873 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				3725F84E2A65A4AE0064B873 /* GamesCardView.swift */,
+				3717CF242A6AD5380009D36C /* AwayTeamScreen.swift */,
+				3717CF262A6AD5430009D36C /* HomeTeamScreen.swift */,
+				3725F8572A65E47C0064B873 /* StatsScreen.swift */,
+				3725F8552A65B2B00064B873 /* GamesScreen.swift */,
+				3725F8502A65A78C0064B873 /* GameCardsArray */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		3725F8502A65A78C0064B873 /* GameCardsArray */ = {
+			isa = PBXGroup;
+			children = (
+				3725F8512A65A7F30064B873 /* GameCards.swift */,
+			);
+			path = GameCardsArray;
+			sourceTree = "<group>";
+		};
+		3725F8592A65E7AF0064B873 /* UllhTeams */ = {
+			isa = PBXGroup;
+			children = (
+				3725F85A2A65E7C80064B873 /* VutCavaliers.swift */,
+				3725F85C2A65E7D50064B873 /* UkPrague.swift */,
+				3725F85E2A65E7E00064B873 /* BlackDogs.swift */,
+				3725F8602A65E7F60064B873 /* AcademyPlzen.swift */,
+				3725F8622A65E82D0064B873 /* EngineersPrague.swift */,
+				3725F8642A65E83C0064B873 /* BoOstrava.swift */,
+				3725F8662A65E84C0064B873 /* NorthWings.swift */,
+				3725F8682A65E85C0064B873 /* HcOlomouc.swift */,
+				3725F86A2A65E87F0064B873 /* RidersPardubice.swift */,
+				3725F86C2A65E8990064B873 /* HcMuni.swift */,
+				379357782AB0A1880079774C /* Players.swift */,
+			);
+			path = UllhTeams;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3725F82A2A659DD30064B873 /* UllhApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3725F8392A659DD40064B873 /* Build configuration list for PBXNativeTarget "UllhApp" */;
+			buildPhases = (
+				3725F8272A659DD30064B873 /* Sources */,
+				3725F8282A659DD30064B873 /* Frameworks */,
+				3725F8292A659DD30064B873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UllhApp;
+			productName = UllhApp;
+			productReference = 3725F82B2A659DD30064B873 /* UllhApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3725F8232A659DD30064B873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3725F82A2A659DD30064B873 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 3725F8262A659DD30064B873 /* Build configuration list for PBXProject "UllhApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3725F8222A659DD30064B873;
+			productRefGroup = 3725F82C2A659DD30064B873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3725F82A2A659DD30064B873 /* UllhApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3725F8292A659DD30064B873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3725F8362A659DD40064B873 /* Preview Assets.xcassets in Resources */,
+				3725F8332A659DD40064B873 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3725F8272A659DD30064B873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379357792AB0A1880079774C /* Players.swift in Sources */,
+				3725F8612A65E7F60064B873 /* AcademyPlzen.swift in Sources */,
+				3725F85B2A65E7C80064B873 /* VutCavaliers.swift in Sources */,
+				3717CF252A6AD5380009D36C /* AwayTeamScreen.swift in Sources */,
+				3725F8562A65B2B00064B873 /* GamesScreen.swift in Sources */,
+				3725F86B2A65E87F0064B873 /* RidersPardubice.swift in Sources */,
+				3725F8582A65E47C0064B873 /* StatsScreen.swift in Sources */,
+				3725F8632A65E82D0064B873 /* EngineersPrague.swift in Sources */,
+				3725F8692A65E85C0064B873 /* HcOlomouc.swift in Sources */,
+				3725F84F2A65A4AE0064B873 /* GamesCardView.swift in Sources */,
+				3725F8522A65A7F30064B873 /* GameCards.swift in Sources */,
+				3725F85D2A65E7D50064B873 /* UkPrague.swift in Sources */,
+				3725F8462A659FD70064B873 /* NewsScreen.swift in Sources */,
+				3717CF272A6AD5430009D36C /* HomeTeamScreen.swift in Sources */,
+				3725F84A2A659FF90064B873 /* CalendarScreen.swift in Sources */,
+				3725F85F2A65E7E00064B873 /* BlackDogs.swift in Sources */,
+				3725F8672A65E84C0064B873 /* NorthWings.swift in Sources */,
+				3725F86F2A65F4580064B873 /* SplashScreenView.swift in Sources */,
+				3725F8652A65E83C0064B873 /* BoOstrava.swift in Sources */,
+				3725F86D2A65E8990064B873 /* HcMuni.swift in Sources */,
+				3725F8312A659DD30064B873 /* ContentView.swift in Sources */,
+				3725F83E2A659F530064B873 /* TabBarView.swift in Sources */,
+				3725F82F2A659DD30064B873 /* UllhAppApp.swift in Sources */,
+				3725F8482A659FEC0064B873 /* ProfileScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3725F8372A659DD40064B873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3725F8382A659DD40064B873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3725F83A2A659DD40064B873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UllhApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 398GFW3DP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.kaukic.Test.UllhApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3725F83B2A659DD40064B873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UllhApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 398GFW3DP9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukas.kaukic.Test.UllhApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3725F8262A659DD30064B873 /* Build configuration list for PBXProject "UllhApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3725F8372A659DD40064B873 /* Debug */,
+				3725F8382A659DD40064B873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3725F8392A659DD40064B873 /* Build configuration list for PBXNativeTarget "UllhApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3725F83A2A659DD40064B873 /* Debug */,
+				3725F83B2A659DD40064B873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3725F8232A659DD30064B873 /* Project object */;
+}
